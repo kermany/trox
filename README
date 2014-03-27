@@ -78,3 +78,4 @@ to generate the posterior decoding path (which shows the crossover patterns)
 PlotPath(x,fam=9910085)
 to generate a full report 
 Trx(x)
+000000
