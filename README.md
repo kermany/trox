@@ -4,9 +4,9 @@ trox
 An R Package for analyzing trisomic sequences
 
 The current version has been tested for Linux and Mac only
-=============================================================
-To Install the package:
 
+To Install the package:
+=============================================================
 1)LINUX:
 In the current directory, open an R session and type:
 >install.packages("TroX_L.1.0.tar.gz")
@@ -29,8 +29,9 @@ In the current directory, open an R session and type:
 
 and follow the steps mentioned above
 
-===============================================================
 Sample Files
+===============================================================
+
 Three files are included in this folder:
 1-T21.smp1
 2-T21.smp2
@@ -71,10 +72,9 @@ the most centromeric SNP.
 Family file
 List of family id's along with the ethnicity (e.g. AFR,EUR,ASN etc)
 
-=======================================================================
 
 Running the program on the sample files:
-
+=======================================================================
 Assuming that you have opened an R session in the currect directory
 where this README file is located, type:
 
@@ -84,5 +84,3 @@ x<-ReadSamples("T21.smp1","T21.fam")
 PlotPath(x,fam=9910085)
 #to generate a full report
 Trx(x)
------------------------------------------------------------------------
-~                                                                                  
