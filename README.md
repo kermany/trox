@@ -31,7 +31,6 @@ and follow the steps mentioned above
 
 ===============================================================
 Sample Files
-===============================================================
 Three files are included in this folder:
 1-T21.smp1
 2-T21.smp2
@@ -49,13 +48,12 @@ father is not included.
 
 List of families and ethnicity for each family.
 
-====================================================================
 Input File Format
 ====================================================================
 The current version only accepts files of the following format:
 
 Sample files:
---------------------------------------------------------------------
+
 The header must be as follows:
 
 mapPos: position of each SNP in cM
@@ -69,11 +67,10 @@ C(fami): Trisomic proband's genotype for the ith family
 Each row corresponds to a SNP (on a given arm of the chromosome),
 ordered according to their physical location, so that the first SNP is
 the most centromeric SNP.
------------------------------------------------------------------------
+
 Family file
------------------------------------------------------------------------
 List of family id's along with the ethnicity (e.g. AFR,EUR,ASN etc)
------------------------------------------------------------------------
+
 =======================================================================
 
 Running the program on the sample files:
