@@ -1,4 +1,4 @@
-trox
+TroX
 ====
 
 An R Package for analyzing trisomic sequences
@@ -80,7 +80,10 @@ where this README file is located, type:
 
 library("TroX")
 x<-ReadSamples("T21.smp1","T21.fam")
-#to generate the posterior decoding path (which shows the crossover patterns)
+
+to generate the posterior decoding path (which shows the crossover patterns)
+
 PlotPath(x,fam=9910085)
-#to generate a full report
+
+to generate a full report
 Trx(x)
